@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Afroza Akter Mukta | CSE Student & Web Developer</title>
+  <meta name="description" content="Portfolio of Afroza Akter Mukta, CSE student, web developer and robotics & embedded systems enthusiast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#home" class="nav__logo">Mukta<span>.</span></a>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="btn btn--small">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Afroza Akter <span class="grad">Mukta</span></h1>
+          <p class="hero__role">CSE Student · Web Developer · Robotics &amp; Embedded Systems Enthusiast</p>
+          <p class="hero__lead">
+            I build clean websites and smart little machines, from Tailwind-styled
+            interfaces to ESP32 and Arduino robots.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+          </div>
+        </div>
+        <div class="hero__card" aria-hidden="true">
+          <div class="avatar">AM</div>
+          <ul class="hero__stats">
+            <li><strong>5.00</strong><span>GPA in SSC &amp; HSC</span></li>
+            <li><strong>3+</strong><span>Hardware Projects</span></li>
+            <li><strong>3</strong><span>Labs &amp; Clubs</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <p class="section__sub">Who I am and where I'm headed</p>
+
+        <div class="about__grid">
+          <div class="card reveal">
+            <h3>Career Objective</h3>
+            <p>
+              I want to build a successful career in Computer Science and Engineering by applying my
+              technical skills, creativity and enthusiasm while contributing to the organization.
+              I have hands-on experience in web development and in building Arduino and ESP32 based
+              robotics and embedded systems projects.
+            </p>
+            <p class="muted">📍 Mohammadpur, Dhaka-1207</p>
+          </div>
+
+          <div class="card reveal">
+            <h3>Education</h3>
+            <ul class="timeline">
+              <li>
+                <span class="timeline__date">Oct 2025 – Present</span>
+                <strong>Mymensingh Engineering College</strong>
+                <span>B.Sc. in CSE (Dhaka University Technology Unit), 1st Year, 2nd Semester</span>
+              </li>
+              <li>
+                <span class="timeline__date">HSC, 2024</span>
+                <strong>Milestone College, Dhaka</strong>
+                <span>Science · GPA 5.00 / 5.00</span>
+              </li>
+              <li>
+                <span class="timeline__date">SSC, 2022</span>
+                <strong>Milestone School and College, Dhaka</strong>
+                <span>Science · GPA 5.00 / 5.00</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>Experience</h3>
+            <ul class="timeline">
+              <li>
+                <span class="timeline__date">Oct 2026 – Present</span>
+                <strong>General Member, Alpha Science Lab</strong>
+                <span>Working on web development using Tailwind CSS and related technologies.</span>
+              </li>
+              <li>
+                <span class="timeline__date">Sep 2026 – Present</span>
+                <strong>General Member, Mechatronics &amp; Embedded System Lab</strong>
+                <span>Working with C, Arduino IDE and embedded systems.</span>
+              </li>
+              <li>
+                <span class="timeline__date">Nov 2025 – Sep 2026</span>
+                <strong>Member, MEC Computer Club</strong>
+                <span>Worked with C++ and web development as part of the club.</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card reveal">
+            <h3>Volunteering</h3>
+            <ul class="timeline">
+              <li>
+                <span class="timeline__date">Sep 2026 – Present</span>
+                <strong>Rover Scout, Mymensingh Engineering College</strong>
+                <span>Actively participating in Rover Scout activities and community service.</span>
+              </li>
+              <li>
+                <span class="timeline__date">Jan 2020 – Apr 2024</span>
+                <strong>Student Volunteer, Milestone College</strong>
+                <span>Supported college events and helped organize programs.</span>
+              </li>
+            </ul>
+            <p class="muted"><strong>Languages:</strong> Bangla and English, both good in reading, speaking, writing and understanding.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== SKILLS ========== -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <p class="section__sub">Tools and technologies I work with</p>
+
+        <div class="skills__grid">
+          <div class="card skill reveal">
+            <div class="skill__icon">💻</div>
+            <h3>Programming</h3>
+            <div class="tags"><span>C</span><span>C++</span></div>
+          </div>
+          <div class="card skill reveal">
+            <div class="skill__icon">🌐</div>
+            <h3>Web</h3>
+            <div class="tags"><span>HTML</span><span>Tailwind CSS</span><span>Web Design</span><span>Web Development</span></div>
+          </div>
+          <div class="card skill reveal">
+            <div class="skill__icon">🤖</div>
+            <h3>Embedded &amp; Robotics</h3>
+            <div class="tags"><span>Arduino IDE</span><span>Arduino</span><span>ESP32</span><span>Embedded Systems</span><span>Robotics</span></div>
+          </div>
+          <div class="card skill reveal">
+            <div class="skill__icon">📊</div>
+            <h3>Microsoft Office</h3>
+            <div class="tags"><span>Word</span><span>Excel</span><span>PowerPoint</span></div>
+          </div>
+          <div class="card skill reveal">
+            <div class="skill__icon">🤝</div>
+            <h3>Soft Skills</h3>
+            <div class="tags"><span>Communication</span><span>Teamwork</span><span>Problem Solving</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROJECTS ========== -->
+    <!-- TODO: replace each "YOUR-USERNAME/REPO-NAME" with your real GitHub repository link -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <p class="section__sub">Things I've designed and built</p>
+
+        <div class="projects__grid">
+          <article class="card project reveal">
+            <div class="project__thumb">🏁</div>
+            <h3>PID Line Follower Robot</h3>
+            <p>Designed and developed a 7-sensor PID line follower robot using ESP32 that tracks a line smoothly and corrects its path in real time.</p>
+            <div class="tags"><span>ESP32</span><span>C/C++</span><span>PID Control</span><span>IR Sensors</span></div>
+            <div class="project__links">
+              <a href="https://github.com/mukta3001073/pid-line-follower" target="_blank" rel="noopener">GitHub Repo ↗</a>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__thumb">🛒</div>
+            <h3>Smart Vending Machine</h3>
+            <p>A compact, low-cost automated vending machine built with Arduino Nano, featuring 6 product slots, push-button selection and an LCD display.</p>
+            <div class="tags"><span>Arduino Nano</span><span>C/C++</span><span>LCD Display</span><span>Servo</span></div>
+            <div class="project__links">
+              <a href="https://github.com/mukta3001073/smart-vending-machine" target="_blank" rel="noopener">GitHub Repo ↗</a>
+            </div>
+          </article>
+
+          <article class="card project reveal">
+            <div class="project__thumb">🚧</div>
+            <h3>Obstacle Avoiding Bot</h3>
+            <p>Built an Arduino-based obstacle avoiding robot that uses ultrasonic sensors to detect objects and steer around them on its own.</p>
+            <div class="tags"><span>Arduino</span><span>Ultrasonic Sensor</span><span>Motor Driver</span><span>C/C++</span></div>
+            <div class="project__links">
+              <a href="https://github.com/mukta3001073/obstacle-avoiding-bot" target="_blank" rel="noopener">GitHub Repo ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section class="section section--alt" id="contact">
+      <div class="container">
+        <h2 class="section__title">Contact</h2>
+        <p class="section__sub">Let's build something together</p>
+
+        <div class="contact__grid">
+          <div class="contact__info">
+            <a class="contact__item" href="mailto:mukta3001073@gmail.com">
+              <span class="contact__icon">✉️</span>
+              <span><small>Email</small>mukta3001073@gmail.com</span>
+            </a>
+            <a class="contact__item" href="tel:+8801716312812">
+              <span class="contact__icon">📞</span>
+              <span><small>Phone</small>01716312812</span>
+            </a>
+            <div class="contact__item">
+              <span class="contact__icon">📍</span>
+              <span><small>Location</small>Mohammadpur, Dhaka-1207</span>
+            </div>
+            <!-- TODO: replace with your real profile links -->
+            <a class="contact__item" href="https://github.com/mukta3001073" target="_blank" rel="noopener">
+              <span class="contact__icon">🐙</span>
+              <span><small>GitHub</small>github.com/mukta3001073</span>
+            </a>
+            <a class="contact__item" href="https://www.linkedin.com/in/YOUR-USERNAME" target="_blank" rel="noopener">
+              <span class="contact__icon">🔗</span>
+              <span><small>LinkedIn</small>linkedin.com/in/YOUR-USERNAME</span>
+            </a>
+          </div>
+
+          <form class="card form" id="contactForm" novalidate>
+            <label>Name
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </label>
+            <label>Email
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>Message
+              <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required></textarea>
+            </label>
+            <button type="submit" class="btn">Send Message</button>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Afroza Akter Mukta. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
