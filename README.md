@@ -2,7 +2,8 @@
 
 A modern, fully responsive personal portfolio website showcasing my skills, projects and background as a CSE student, web developer and robotics & embedded systems enthusiast.
 
-🔗 **Live Site:** https://protfolionet.netlify.app
+🔗 **Website Link** https://protfolionet.netlify.app
+
 📂 **Repository:** https://github.com/mukta3001073/Portfolio
 
 ---
